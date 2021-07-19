@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+/* Toaster container style change wrt Sketchy theme  */
+#toast-container > .toast-success {
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
+  background-color: #28a745;
+  color: #fff;
+}
+#toast-container > .toast-error {
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
+  background-color: #dc3545;
+  color: #fff;
+}
+#toast-container > .toast-warning {
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
+  background-color: #ffc107;
+  color: #fff;
+}
