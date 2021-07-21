@@ -10,12 +10,12 @@
                 [(ngModel)]="userParams.minAge">
         </div>
         <div class="form-group px-2">
-            <label>Age from: </label>
+            <label>Age till: </label>
             <input type="number" class="form-control me-1" name="maxAge" style="width: 70px;"
                 [(ngModel)]="userParams.maxAge">
         </div>
         <div class="form-group px-2">
-            <label>Age from: </label>
+            <label>Gender: </label>
             <select type="number" class="form-control me-1" name="gender" style="width: 130px;"
                 [(ngModel)]="userParams.gender">
                 <option *ngFor="let gender of genderList" [value]="gender.value">{{gender.display}}</option>
