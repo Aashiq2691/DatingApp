@@ -1,0 +1,16 @@
+table tbody tr td {
+  background-color: white !important;
+}
+
+table {
+  width: 100%;
+  color: #212529;
+  vertical-align: top;
+  border-color: #333;
+}
+
+table tbody tr {
+  border: 1px groove;
+  border-left: #333;
+  border-right: #333;
+}

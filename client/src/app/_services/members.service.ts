@@ -36,7 +36,9 @@ export class MembersService {
   }
 
   resetUserParams() {
+    console.log(this.user);
     this.userParams = new UserParams(this.user);
+    console.log(this.userParams);
     return this.userParams;
   }
 
